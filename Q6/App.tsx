@@ -8,15 +8,16 @@
 import React, { useState } from 'react';
 import { View } from 'react-native';
 import Employee from './employee';
+import SumFirstDigitAndLastDigit from './SumFirstDigitAndLastDigit';
 
 
 
 
 function App() {
   return (
-    <View>
-      <Employee />
-    </View>
+    
+      // <Employee />
+    <SumFirstDigitAndLastDigit/>
   );
 }
 
