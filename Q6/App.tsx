@@ -10,6 +10,7 @@ import { View } from 'react-native';
 import Employee from './employee';
 import SumFirstDigitAndLastDigit from './SumFirstDigitAndLastDigit';
 import MinDifBetweenThreeNums from './minDifBetweenThreeNums';
+import HailestoneSequence from './HailestoneSequence';
 
 
 
@@ -18,7 +19,8 @@ function App() {
     
       // <Employee />
     // <SumFirstDigitAndLastDigit/>
-    <MinDifBetweenThreeNums/>
+    // <MinDifBetweenThreeNums/>
+    <HailestoneSequence/>
   );
 }
 
